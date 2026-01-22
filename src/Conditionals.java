@@ -6,8 +6,8 @@ public class Conditionals {
 
     public Conditionals(){
        int randomInt = (int)(Math.random()*10);
-       randomInt = (int)(Math.random() *10);  // 0 to 10
-
+       randomInt = (int)(Math.random() *10);  // 0 to 5
+        System.out.println("Will I get an A on this?");
         if (randomInt == 0){
             System.out.println("Very doubtful");
         }
@@ -29,6 +29,9 @@ public class Conditionals {
         else if (randomInt >= 5){
             System.out.println("Ask again later");
         }
+
+
+
     }//constructor method
 }
 
